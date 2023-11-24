@@ -149,17 +149,16 @@ const DetailedPage = () => {
       // break;
       default:
       ComponentToRender = <div><h1>404</h1></div>;
- 
-
   }
-  // const SVGComponent = lazy(() => import('../components/components Detailed Page/SVGComponent'))
   return (
     <Fragment>
       {data.partener ? <HeaderSection data={data} /> : <HeaderSectionWithoutQuestion data={data} />}
       <Suspense fallback={<div className="flex h-screen items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
       </div>}>
+        <div className="bg-gray-50 px-10 pt-4 sm:pt-12">
         <ComponentToRender />
+        </div>
       </Suspense>
       <Community />
       <Footer />
