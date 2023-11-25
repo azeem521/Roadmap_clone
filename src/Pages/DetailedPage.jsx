@@ -6,6 +6,7 @@ import HeaderSectionWithoutQuestion from '../components/components Detailed Page
 import Community from '../components/Landing page components/Community'
 import Footer from '../components/Landing page components/Footer'
 import FAQSection from '../components/components Detailed Page/FAQSection';
+import RelatedRoadMaps from '../components/components Detailed Page/RelatedRoadMaps';
 
 const DetailedPage = () => {
   const { id } = useParams()
@@ -162,6 +163,7 @@ const DetailedPage = () => {
         </div>
       </Suspense>
       <FAQSection />
+      <RelatedRoadMaps />
       <Community />
       <Footer />
     </Fragment>

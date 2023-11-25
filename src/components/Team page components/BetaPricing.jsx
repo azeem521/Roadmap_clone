@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BetaPricing = () => {
   return (
@@ -24,10 +25,10 @@ const BetaPricing = () => {
                 <span className="text-base text-gray-600">$</span
                 ><span className="text-5xl font-bold">0</span>
               </p>
-              <a
-                href="/signup"
+              <Link
+                to="/signup"
                 className="block rounded-md bg-purple-600 px-6 py-2 text-center text-sm font-medium leading-6 text-white shadow transition hover:bg-gray-700 hover:shadow-lg focus:outline-none"
-                >Sign up for free</a
+                >Sign up for free</Link
               >
             </div>
             <div

@@ -14,7 +14,6 @@ const Accordian = ({ Questions }) => {
 
     return (
         <div
-            // className="faq-item bg-white border rounded-md hover:bg-gray-50 border-gray-300"
         >
             {
                 Questions.questions.map((data, index) => {

@@ -39,13 +39,13 @@ const HeaderSectionWithoutQuestion = ({data}) => {
       </div>
       <div className="flex justify-between gap-2 sm:gap-0">
         <div className="flex gap-1 sm:gap-2">
-          <a
-            href="/roadmaps"
+          <Link
+            to="/roadmaps"
             className="rounded-md bg-gray-500 px-3 py-1.5 text-xs font-medium text-white hover:bg-gray-600 sm:text-sm"
             aria-label="Back to All Roadmaps"
           >
             ←<span className="hidden sm:inline">&nbsp;All Roadmaps</span>
-          </a>
+          </Link>
           <astro-island
             ><div className="relative">
               <button
@@ -92,12 +92,12 @@ const HeaderSectionWithoutQuestion = ({data}) => {
             </svg>
             <span className="ml-2 hidden sm:inline">Download</span>
           </button>
-          <a
+          <Link
             data-auth-required=""
             className="inline-flex hidden items-center justify-center rounded-md bg-yellow-400 px-3 py-1.5 text-xs font-medium hover:bg-yellow-500 sm:text-sm"
             aria-label="Download Roadmap"
             target="_blank"
-            href="/pdfs/roadmaps/blockchain.pdf"
+            to="/pdfs/roadmaps/blockchain.pdf"
           >
             <svg
               viewBox="0 0 14 14"
@@ -111,7 +111,7 @@ const HeaderSectionWithoutQuestion = ({data}) => {
               ></path>
             </svg>
             <span className="ml-2 hidden sm:inline">Download</span>
-          </a>
+          </Link>
         </div>
         <div className="flex items-center gap-1 sm:gap-2">
           <Link

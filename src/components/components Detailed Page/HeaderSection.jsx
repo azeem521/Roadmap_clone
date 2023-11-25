@@ -119,12 +119,12 @@ const HeaderSection = ({data}) => {
               </svg>
               <span className="ml-2 hidden sm:inline">Download</span>
             </button>
-            <a
+            <Link
               data-auth-required=""
               className="inline-flex hidden items-center justify-center rounded-md bg-yellow-400 px-3 py-1.5 text-xs font-medium hover:bg-yellow-500 sm:text-sm"
               aria-label="Download Roadmap"
               target="_blank"
-              href="/pdfs/roadmaps/frontend.pdf"
+              to="/pdfs/roadmaps/frontend.pdf"
             >
               <svg
                 viewBox="0 0 14 14"
@@ -138,11 +138,10 @@ const HeaderSection = ({data}) => {
                 ></path>
               </svg>
               <span className="ml-2 hidden sm:inline">Download</span>
-            </a>
+            </Link>
           </div>
           <div className="flex items-center gap-1 sm:gap-2">
-            {/* <astro-island
-            ></astro-island> */}
+         
             <Link
               to={`https://github.com`}
               target="_blank"

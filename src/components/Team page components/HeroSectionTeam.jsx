@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HeroSectionTeam = () => {
   return (
@@ -99,20 +100,20 @@ const HeroSectionTeam = () => {
             <div
               class="flex flex-col items-start gap-2 sm:flex-row sm:items-center"
             >
-              <a
-                href="/signup"
+              <Link
+                to="/signup"
                 class="flex w-full items-center justify-center rounded-lg border border-transparent bg-purple-600 px-5 py-2 text-sm font-medium text-white hover:bg-blue-700 sm:w-auto sm:text-base"
-                >Create your Team</a
+                >Create your Team</Link
               ><span class="ml-1 hidden text-base sm:inline"
-                >or &nbsp;<a
-                  href="/login"
+                >or &nbsp;<Link
+                  to="/login"
                   class="text-purple-600 underline hover:text-purple-700"
-                  >Login to your account</a
+                  >Login to your account</Link
                 ></span
-              ><a
-                href="/login"
+              ><Link
+                to="/login"
                 class="flex w-full items-center justify-center rounded-lg border border-purple-600 px-5 py-2 text-base text-sm font-medium text-purple-600 hover:bg-blue-700 sm:hidden sm:text-base"
-                >Login to your account</a
+                >Login to your account</Link
               >
             </div>
           </div>
