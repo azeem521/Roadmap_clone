@@ -5,6 +5,7 @@ import { detailedPageData } from '../components/components Detailed Page/dataFor
 import HeaderSectionWithoutQuestion from '../components/components Detailed Page/HeaderSectionWithoutQuestion';
 import Community from '../components/Landing page components/Community'
 import Footer from '../components/Landing page components/Footer'
+import FAQSection from '../components/components Detailed Page/FAQSection';
 
 const DetailedPage = () => {
   const { id } = useParams()
@@ -160,6 +161,7 @@ const DetailedPage = () => {
         <ComponentToRender />
         </div>
       </Suspense>
+      <FAQSection />
       <Community />
       <Footer />
     </Fragment>
