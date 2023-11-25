@@ -157,7 +157,7 @@ const DetailedPage = () => {
       <Suspense fallback={<div className="flex h-screen items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
       </div>}>
-        <div className="bg-gray-50 px-10 pt-4 sm:pt-12">
+        <div className="bg-gray-50 px-10 pt-4 pb-8 sm:pt-12">
         <ComponentToRender />
         </div>
       </Suspense>
