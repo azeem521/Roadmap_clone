@@ -1,6 +1,8 @@
 import React, { Fragment, Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import LandingPage from '../Pages/LandingPage'
+import GuidesPage from '../Pages/GuidesPage'
+import { engineeringGuideTopic, videoTopic } from '../components/Landing page components/TopicAreas/RoleBaseTopic'
 
 
 const Routing = ({ showBurgerMenuFunction, isShowMenu }) => {
@@ -19,6 +21,9 @@ const Routing = ({ showBurgerMenuFunction, isShowMenu }) => {
           <Route path='/best-practices' element={<BestPracticesPage />} />
           <Route path='/teams' element={<TeamPage />} />
           <Route path='/:id' element={<DetailedPage />} />
+          <Route path='/guides' element={<GuidesPage topics={engineeringGuideTopic} resource={"Guides"} description={"Succinct graphical explanations to engineering topics."}/>} />
+
+          <Route path='/videos' element={<GuidesPage topics={videoTopic} resource={"Videos"} description={"Graphical video demonstrations on software engineering topics."}/>} />
           
         </Routes>
       </Suspense>
@@ -27,3 +32,4 @@ const Routing = ({ showBurgerMenuFunction, isShowMenu }) => {
 }
 
 export default Routing
+

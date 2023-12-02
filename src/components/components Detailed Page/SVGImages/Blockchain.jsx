@@ -26,7 +26,7 @@ const Blockchain = () => {
           stroke-linejoin="round"
           stroke-dasharray="undefined"
         ></path>
-        <g class="clickable-group" data-group-id="ext_link:google.com">
+        <g className="clickable-group" data-group-id="ext_link:google.com">
           <rect
             x="651.35"
             y="2659.35"
@@ -865,7 +865,7 @@ const Blockchain = () => {
           >
             <tspan>along with resources and other roadmaps</tspan>
           </text>
-          <g class="clickable-group" data-group-id="ext_link:roadmap.sh">
+          <g className="clickable-group" data-group-id="ext_link:roadmap.sh">
             <rect
               x="1090.35"
               y="246.35"
@@ -1073,7 +1073,7 @@ const Blockchain = () => {
           stroke-dasharray="0.8 12"
         ></path>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-basics:what-is-blockchain"
         >
           <rect
@@ -1108,7 +1108,7 @@ const Blockchain = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-basics:decentralization"
         >
           <rect
@@ -1143,7 +1143,7 @@ const Blockchain = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-blockchain-basics:why-blockchain-matters"
         >
           <rect
@@ -1179,7 +1179,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="100-blockchain-basics">
+        <g className="clickable-group" data-group-id="100-blockchain-basics">
           <rect
             x="691.35"
             y="416.35"
@@ -1202,7 +1202,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-blockchain-basics:blockchain-structure"
         >
           <rect
@@ -1239,7 +1239,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-blockchain-basics:basic-blockchain-operations"
         >
           <rect
@@ -1276,7 +1276,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-blockchain-basics:applications-and-uses"
         >
           <rect
@@ -1313,7 +1313,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-general-knowledge"
         >
           <rect
@@ -1338,7 +1338,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-blockchain-general-knowledge:cryptocurrencies"
         >
           <rect
@@ -1375,7 +1375,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-general-knowledge:mining-and-incentive-models"
         >
           <rect
@@ -1412,7 +1412,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-blockchain-general-knowledge:decentralization-vs-trust"
         >
           <rect
@@ -1449,7 +1449,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-blockchain-general-knowledge:cryptowallets"
         >
           <rect
@@ -1486,7 +1486,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-blockchain-general-knowledge:blockchain-forking"
         >
           <rect
@@ -1523,7 +1523,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-blockchain-general-knowledge:cryptography"
         >
           <rect
@@ -1560,7 +1560,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="107-blockchain-general-knowledge:consensus-protocols"
         >
           <rect
@@ -1597,7 +1597,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="108-blockchain-general-knowledge:blockchain-interoperability"
         >
           <rect
@@ -1634,7 +1634,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-general-knowledge:storage"
         >
           <rect
@@ -1671,7 +1671,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="109-blockchain-general-knowledge:blockchains"
         >
           <rect
@@ -1708,7 +1708,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-general-knowledge:blockchains:solana"
         >
           <rect
@@ -1757,7 +1757,7 @@ const Blockchain = () => {
           stroke-width="2.7"
         ></rect>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-general-knowledge:blockchains:evm-based:ethereum"
         >
           <rect
@@ -1794,7 +1794,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-general-knowledge:blockchains:evm-based:polygon"
         >
           <rect
@@ -1831,7 +1831,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-blockchain-general-knowledge:blockchains:evm-based:binance-smart-chain"
         >
           <rect
@@ -1868,7 +1868,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-blockchain-general-knowledge:blockchains:evm-based:gnosis-chain"
         >
           <rect
@@ -1905,7 +1905,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-blockchain-general-knowledge:blockchains:evm-based:huobi-eco-chain"
         >
           <rect
@@ -1942,7 +1942,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="107-blockchain-general-knowledge:blockchains:evm-based:moonbeam-moonriver"
         >
           <rect
@@ -1979,7 +1979,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-blockchain-general-knowledge:blockchains:evm-based:avalanche"
         >
           <rect
@@ -2016,7 +2016,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-blockchain-general-knowledge:blockchains:evm-based:fantom"
         >
           <rect
@@ -2051,7 +2051,7 @@ const Blockchain = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-general-knowledge:blockchains:ton"
         >
           <rect
@@ -2089,7 +2089,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-blockchain-general-knowledge:blockchains:l2-blockchains"
         >
           <rect
@@ -2127,7 +2127,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-general-knowledge:blockchains:l2-blockchains:moonbeam-moonriver"
         >
           <rect
@@ -2164,7 +2164,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-general-knowledge:blockchains:l2-blockchains:arbitrum"
         >
           <rect
@@ -2201,7 +2201,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-blockchain-general-knowledge:blockchains:evm-based"
         >
           <rect
@@ -2248,7 +2248,7 @@ const Blockchain = () => {
         >
           <tspan>EVM-Based</tspan>
         </text>
-        <g class="clickable-group" data-group-id="102-blockchain-oracles">
+        <g className="clickable-group" data-group-id="102-blockchain-oracles">
           <rect
             x="295.35"
             y="921.35"
@@ -2271,7 +2271,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-oracles:chainlink"
         >
           <rect
@@ -2308,7 +2308,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-blockchain-oracles:oracle-networks"
         >
           <rect
@@ -2345,7 +2345,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-oracles:hybrid-smart-contracts"
         >
           <rect
@@ -2381,7 +2381,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="103-smart-contracts">
+        <g className="clickable-group" data-group-id="103-smart-contracts">
           <rect
             x="641.35"
             y="1139.35"
@@ -2404,7 +2404,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-smart-contracts:programming-languages"
         >
           <rect
@@ -2440,7 +2440,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="105-smart-contracts:erc-tokens">
+        <g className="clickable-group" data-group-id="105-smart-contracts:erc-tokens">
           <rect
             x="294.35"
             y="1125.35"
@@ -2475,7 +2475,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-smart-contracts:crypto-wallets"
         >
           <rect
@@ -2511,7 +2511,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="107-smart-contracts:ides">
+        <g className="clickable-group" data-group-id="107-smart-contracts:ides">
           <rect
             x="294.35"
             y="1227.35"
@@ -2546,7 +2546,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="108-smart-contracts:crypto-faucets"
         >
           <rect
@@ -2583,7 +2583,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="109-smart-contracts:decentralized-storage"
         >
           <rect
@@ -2619,7 +2619,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="101-smart-contracts:testing">
+        <g className="clickable-group" data-group-id="101-smart-contracts:testing">
           <rect
             x="896.35"
             y="1194.35"
@@ -2654,7 +2654,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-smart-contracts:programming-languages:solidity"
         >
           <rect
@@ -2691,7 +2691,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-smart-contracts:programming-languages:vyper"
         >
           <rect
@@ -2729,7 +2729,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-smart-contracts:programming-languages:rust"
         >
           <rect
@@ -2766,7 +2766,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="102-smart-contracts:deployment">
+        <g className="clickable-group" data-group-id="102-smart-contracts:deployment">
           <rect
             x="896.35"
             y="1246.35"
@@ -2800,7 +2800,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="103-smart-contracts:monitoring">
+        <g className="clickable-group" data-group-id="103-smart-contracts:monitoring">
           <rect
             x="896.35"
             y="1296.35"
@@ -2834,7 +2834,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="104-smart-contracts:upgrades">
+        <g className="clickable-group" data-group-id="104-smart-contracts:upgrades">
           <rect
             x="896.35"
             y="1346.35"
@@ -2869,7 +2869,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-smart-contracts:testing:unit-tests"
         >
           <rect
@@ -2906,7 +2906,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-smart-contracts:testing:integration-tests"
         >
           <rect
@@ -2943,7 +2943,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-smart-contracts:testing:code-coverage"
         >
           <rect
@@ -2979,7 +2979,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="104-smart-contract-frameworks">
+        <g className="clickable-group" data-group-id="104-smart-contract-frameworks">
           <rect
             x="295.35"
             y="1450.35"
@@ -3002,7 +3002,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-smart-contract-frameworks:hardhat"
         >
           <rect
@@ -3039,7 +3039,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-smart-contract-frameworks:brownie"
         >
           <rect
@@ -3077,7 +3077,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-smart-contract-frameworks:truffle"
         >
           <rect
@@ -3115,7 +3115,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-smart-contract-frameworks:dapp-tools"
         >
           <rect
@@ -3152,7 +3152,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="105-blockchain-security">
+        <g className="clickable-group" data-group-id="105-blockchain-security">
           <rect
             x="619.35"
             y="1452.35"
@@ -3175,7 +3175,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-security:practices"
         >
           <rect
@@ -3200,7 +3200,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-security:practices:fuzz-testing-and-static-analysis"
         >
           <rect
@@ -3237,7 +3237,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-security:practices:common-threat-vectors"
         >
           <rect
@@ -3274,7 +3274,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-blockchain-security:practices:source-of-randomness-attacks"
         >
           <rect
@@ -3310,7 +3310,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="101-blockchain-security:tools">
+        <g className="clickable-group" data-group-id="101-blockchain-security:tools">
           <rect
             x="889.35"
             y="1641.35"
@@ -3333,7 +3333,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-blockchain-security:tools:slither"
         >
           <rect
@@ -3370,7 +3370,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-blockchain-security:tools:manticore"
         >
           <rect
@@ -3407,7 +3407,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-blockchain-security:tools:echidna"
         >
           <rect
@@ -3445,7 +3445,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-blockchain-security:tools:mythx"
         >
           <rect
@@ -3482,7 +3482,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="106-management-platforms">
+        <g className="clickable-group" data-group-id="106-management-platforms">
           <rect
             x="519.35"
             y="1599.35"
@@ -3505,7 +3505,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-management-platforms:open-zeppelin"
         >
           <rect
@@ -3542,7 +3542,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-repo-hosting-services:github"
         >
           <rect
@@ -3578,7 +3578,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="107-version-control-systems">
+        <g className="clickable-group" data-group-id="107-version-control-systems">
           <rect
             x="294.35"
             y="1813.35"
@@ -3601,7 +3601,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-version-control-systems:git"
         >
           <rect
@@ -3637,7 +3637,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="108-repo-hosting-services">
+        <g className="clickable-group" data-group-id="108-repo-hosting-services">
           <rect
             x="620.35"
             y="1813.35"
@@ -3660,7 +3660,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-repo-hosting-services:gitlab"
         >
           <rect
@@ -3698,7 +3698,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-repo-hosting-services:bitbucket"
         >
           <rect
@@ -3735,7 +3735,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="109-dapps">
+        <g className="clickable-group" data-group-id="109-dapps">
           <rect
             x="996.35"
             y="1978.35"
@@ -3769,7 +3769,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="100-dapps:frontend-frameworks">
+        <g className="clickable-group" data-group-id="100-dapps:frontend-frameworks">
           <rect
             x="1090.35"
             y="1838.35"
@@ -3792,7 +3792,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-dapps:frontend-frameworks:react"
         >
           <rect
@@ -3841,7 +3841,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-dapps:frontend-frameworks:angular"
         >
           <rect
@@ -3879,7 +3879,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-dapps:frontend-frameworks:vue"
         >
           <rect
@@ -3916,7 +3916,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="100-dapps:testing">
+        <g className="clickable-group" data-group-id="100-dapps:testing">
           <rect
             x="572.35"
             y="1890.35"
@@ -3950,7 +3950,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="109-dapps:client-nodes">
+        <g className="clickable-group" data-group-id="109-dapps:client-nodes">
           <rect
             x="1220.35"
             y="2072.35"
@@ -3984,7 +3984,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="105-dapps:applicability">
+        <g className="clickable-group" data-group-id="105-dapps:applicability">
           <rect
             x="306.35"
             y="2091.35"
@@ -4019,7 +4019,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-dapps:client-libraries:ethers-js"
         >
           <rect
@@ -4068,7 +4068,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-dapps:client-libraries:web3-js"
         >
           <rect
@@ -4106,7 +4106,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-dapps:client-libraries:moralis"
         >
           <rect
@@ -4143,7 +4143,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="100-dapps:client-nodes:geth">
+        <g className="clickable-group" data-group-id="100-dapps:client-nodes:geth">
           <rect
             x="1220.35"
             y="2152.35"
@@ -4177,7 +4177,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="101-dapps:client-nodes:besu">
+        <g className="clickable-group" data-group-id="101-dapps:client-nodes:besu">
           <rect
             x="1220.35"
             y="2198.35"
@@ -4212,7 +4212,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-dapps:client-nodes:nethermind"
         >
           <rect
@@ -4249,7 +4249,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-dapps:client-nodes:substrate"
         >
           <rect
@@ -4285,7 +4285,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="100-dapps:applicability:defi">
+        <g className="clickable-group" data-group-id="100-dapps:applicability:defi">
           <rect
             x="306.35"
             y="2023.35"
@@ -4319,7 +4319,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="101-dapps:applicability:daos">
+        <g className="clickable-group" data-group-id="101-dapps:applicability:daos">
           <rect
             x="394.35"
             y="2023.35"
@@ -4353,7 +4353,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="102-dapps:applicability:nfts">
+        <g className="clickable-group" data-group-id="102-dapps:applicability:nfts">
           <rect
             x="306.35"
             y="1978.35"
@@ -4388,7 +4388,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-dapps:applicability:payments"
         >
           <rect
@@ -4426,7 +4426,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-dapps:applicability:insurance"
         >
           <rect
@@ -4463,7 +4463,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="101-dapps:deployment">
+        <g className="clickable-group" data-group-id="101-dapps:deployment">
           <rect
             x="572.35"
             y="1935.35"
@@ -4497,7 +4497,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="102-dapps:maintenance">
+        <g className="clickable-group" data-group-id="102-dapps:maintenance">
           <rect
             x="572.35"
             y="1980.35"
@@ -4531,7 +4531,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="103-dapps:architecture">
+        <g className="clickable-group" data-group-id="103-dapps:architecture">
           <rect
             x="572.35"
             y="2025.35"
@@ -4565,7 +4565,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="104-dapps:security">
+        <g className="clickable-group" data-group-id="104-dapps:security">
           <rect
             x="572.35"
             y="2070.35"
@@ -4599,7 +4599,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="108-dapps:client-libraries">
+        <g className="clickable-group" data-group-id="108-dapps:client-libraries">
           <rect
             x="1046.35"
             y="2072.35"
@@ -4633,7 +4633,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="106-dapps:node-as-a-service">
+        <g className="clickable-group" data-group-id="106-dapps:node-as-a-service">
           <rect
             x="572.35"
             y="2187.35"
@@ -4656,7 +4656,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-dapps:node-as-a-service:moralis"
         >
           <rect
@@ -4693,7 +4693,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-dapps:node-as-a-service:infura"
         >
           <rect
@@ -4730,7 +4730,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-dapps:node-as-a-service:alchemy"
         >
           <rect
@@ -4767,7 +4767,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-dapps:node-as-a-service:quicknode"
         >
           <rect
@@ -4803,7 +4803,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="107-dapps:supporting-languages">
+        <g className="clickable-group" data-group-id="107-dapps:supporting-languages">
           <rect
             x="572.35"
             y="2271.35"
@@ -4826,7 +4826,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-dapps:supporting-languages:go"
         >
           <rect
@@ -4864,7 +4864,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-dapps:supporting-languages:python"
         >
           <rect
@@ -4902,7 +4902,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-dapps:supporting-languages:javascript"
         >
           <rect
@@ -4938,7 +4938,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="110-building-for-scale">
+        <g className="clickable-group" data-group-id="110-building-for-scale">
           <rect
             x="605.35"
             y="2479.35"
@@ -4961,7 +4961,7 @@ const Blockchain = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-building-for-scale:state-and-payment-channels"
         >
           <rect
@@ -4998,7 +4998,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-building-for-scale:optimistic-rollups-and-fraud-proofs"
         >
           <rect
@@ -5035,7 +5035,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-building-for-scale:zero-knowledge-rollups-and-zero-knowledge-proof"
         >
           <rect
@@ -5072,7 +5072,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-building-for-scale:validium"
         >
           <rect
@@ -5109,7 +5109,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-building-for-scale:sidechains"
         >
           <rect
@@ -5145,7 +5145,7 @@ const Blockchain = () => {
             ></path>
           </g>
         </g>
-        <g class="clickable-group" data-group-id="104-building-for-scale:plasma">
+        <g className="clickable-group" data-group-id="104-building-for-scale:plasma">
           <rect
             x="1225.35"
             y="2503.35"
@@ -5180,7 +5180,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-building-for-scale:ethereum-2"
         >
           <rect
@@ -5217,7 +5217,7 @@ const Blockchain = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="107-building-for-scale:on-chain-scaling"
         >
           <rect

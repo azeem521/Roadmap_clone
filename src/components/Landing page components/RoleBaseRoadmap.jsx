@@ -26,7 +26,7 @@ const RoleBaseRoadmapHero = ({topics,mainHeading,createNew}) => {
                   to={address}
                 >
                   <span className="relative z-20 text-slate-400"> {topic.title} </span>
-                  <astro-island
+                  {mainHeading !== 'Questions' && <astro-island
                     uid="ZGdC8e"
                     component-url="/_astro/MarkFavorite.e8682adc.js"
                     component-export="MarkFavorite"
@@ -54,7 +54,7 @@ const RoleBaseRoadmapHero = ({topics,mainHeading,createNew}) => {
                           fill="currentColor"
                         ></path>
                       </svg></button
-                    ></astro-island>
+                    ></astro-island>}
                   {
                     topic.new && <span
                       className="absolute bottom-1.5 right-2 flex items-center rounded-br rounded-tl text-xs font-medium text-purple-300"

@@ -62,12 +62,12 @@ const Navbar = ({showBurgerMenuFunction}) => {
                 </ul>
                 <ul className="hidden h-8 w-[172px] items-center justify-end gap-5 sm:flex">
                     <li className="transition-opacity duration-300">
-                        <Link to="/login" className="text-gray-400 hover:text-white">
+                        <Link to="#" className="text-gray-400 hover:text-white">
                             Login
                         </Link>
                     </li>
                     <li>
-                        <Link className="flex h-8 w-28 cursor-pointer items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-blue-700 px-4 py-2 text-sm font-medium text-white hover:from-blue-500 hover:to-blue-600 transition-opacity duration-300" to="/signup">
+                        <Link className="flex h-8 w-28 cursor-pointer items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-blue-700 px-4 py-2 text-sm font-medium text-white hover:from-blue-500 hover:to-blue-600 transition-opacity duration-300" to="#">
                             <span>
                                 Sign Up
                             </span>

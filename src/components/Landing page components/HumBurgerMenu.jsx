@@ -34,12 +34,12 @@ const HumBurgerMenu = ({ showBurgerMenuFunction }) => {
                     })
                 }
                 <li>
-                    <Link to="/login" className="text-xl text-white md:text-lg transition-opacity duration-300">
+                    <Link to="#" className="text-xl text-white md:text-lg transition-opacity duration-300">
                         Login
                     </Link>
                 </li>
                 <li>
-                    <Link to="/signup" className="text-xl text-green-300 hover:text-green-400 md:text-lg transition-opacity duration-300">
+                    <Link to="#" className="text-xl text-green-300 hover:text-green-400 md:text-lg transition-opacity duration-300">
                         Sign Up
                     </Link>
                 </li>

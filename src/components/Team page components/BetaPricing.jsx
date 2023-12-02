@@ -26,7 +26,7 @@ const BetaPricing = () => {
                 ><span className="text-5xl font-bold">0</span>
               </p>
               <Link
-                to="/signup"
+                to="#"
                 className="block rounded-md bg-purple-600 px-6 py-2 text-center text-sm font-medium leading-6 text-white shadow transition hover:bg-gray-700 hover:shadow-lg focus:outline-none"
                 >Sign up for free</Link
               >

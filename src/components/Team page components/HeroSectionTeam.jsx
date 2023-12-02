@@ -101,17 +101,17 @@ const HeroSectionTeam = () => {
               class="flex flex-col items-start gap-2 sm:flex-row sm:items-center"
             >
               <Link
-                to="/signup"
+                to="#"
                 class="flex w-full items-center justify-center rounded-lg border border-transparent bg-purple-600 px-5 py-2 text-sm font-medium text-white hover:bg-blue-700 sm:w-auto sm:text-base"
                 >Create your Team</Link
               ><span class="ml-1 hidden text-base sm:inline"
                 >or &nbsp;<Link
-                  to="/login"
+                  to="#"
                   class="text-purple-600 underline hover:text-purple-700"
                   >Login to your account</Link
                 ></span
               ><Link
-                to="/login"
+                to="#"
                 class="flex w-full items-center justify-center rounded-lg border border-purple-600 px-5 py-2 text-base text-sm font-medium text-purple-600 hover:bg-blue-700 sm:hidden sm:text-base"
                 >Login to your account</Link
               >

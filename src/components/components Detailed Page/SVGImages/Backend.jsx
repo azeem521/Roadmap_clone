@@ -676,7 +676,7 @@ const Backend = () => {
           stroke-linejoin="round"
           stroke-dasharray="undefined"
         ></path>
-        <g class="clickable-group" data-group-id="104-scalability:observability">
+        <g className="clickable-group" data-group-id="104-scalability:observability">
           <rect
             x="1456.35"
             y="3850.35"
@@ -748,7 +748,7 @@ const Backend = () => {
           stroke-linejoin="round"
           stroke-dasharray="0.8 12"
         ></path>
-        <g class="clickable-group" data-group-id="115-architectural-patterns">
+        <g className="clickable-group" data-group-id="115-architectural-patterns">
           <rect
             x="1141.35"
             y="2905.35"
@@ -770,7 +770,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-architectural-patterns:monolithic-apps"
         >
           <rect
@@ -804,7 +804,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-architectural-patterns:microservices"
         >
           <rect
@@ -846,7 +846,7 @@ const Backend = () => {
           stroke-linejoin="round"
           stroke-dasharray="undefined"
         ></path>
-        <g class="clickable-group" data-group-id="102-architectural-patterns:soa">
+        <g className="clickable-group" data-group-id="102-architectural-patterns:soa">
           <rect
             x="1490.35"
             y="2997.35"
@@ -877,7 +877,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="117-message-brokers">
+        <g className="clickable-group" data-group-id="117-message-brokers">
           <rect
             x="874.35"
             y="3263.35"
@@ -898,7 +898,7 @@ const Backend = () => {
             <tspan>Message Brokers</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="118-containerization">
+        <g className="clickable-group" data-group-id="118-containerization">
           <rect
             x="1191.35"
             y="3272.35"
@@ -919,7 +919,7 @@ const Backend = () => {
             <tspan>Containerization vs Virtualization</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="122-web-servers">
+        <g className="clickable-group" data-group-id="122-web-servers">
           <rect
             x="961.35"
             y="3504.35"
@@ -940,7 +940,7 @@ const Backend = () => {
             <tspan>Web Servers</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="100-web-servers:nginx">
+        <g className="clickable-group" data-group-id="100-web-servers:nginx">
           <rect
             x="711.35"
             y="3384.35"
@@ -971,7 +971,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-web-servers:apache">
+        <g className="clickable-group" data-group-id="101-web-servers:apache">
           <rect
             x="711.35"
             y="3429.35"
@@ -1003,7 +1003,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="102-web-servers:caddy">
+        <g className="clickable-group" data-group-id="102-web-servers:caddy">
           <rect
             x="711.35"
             y="3475.35"
@@ -1035,7 +1035,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="103-web-servers:ms-iis">
+        <g className="clickable-group" data-group-id="103-web-servers:ms-iis">
           <rect
             x="711.35"
             y="3520.35"
@@ -1067,7 +1067,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="100-containerization:docker">
+        <g className="clickable-group" data-group-id="100-containerization:docker">
           <rect
             x="1571.35"
             y="3230.35"
@@ -1098,7 +1098,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="102-containerization:lxc">
+        <g className="clickable-group" data-group-id="102-containerization:lxc">
           <rect
             x="1571.35"
             y="3275.35"
@@ -1129,7 +1129,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="119-graphql">
+        <g className="clickable-group" data-group-id="119-graphql">
           <rect
             x="1384.35"
             y="3358.35"
@@ -1150,7 +1150,7 @@ const Backend = () => {
             <tspan>GraphQL</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="100-graphql:apollo">
+        <g className="clickable-group" data-group-id="100-graphql:apollo">
           <rect
             x="1572.35"
             y="3358.35"
@@ -1181,7 +1181,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-graphql:relay-modern">
+        <g className="clickable-group" data-group-id="101-graphql:relay-modern">
           <rect
             x="1572.35"
             y="3404.35"
@@ -1213,7 +1213,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="121-web-sockets">
+        <g className="clickable-group" data-group-id="121-web-sockets">
           <rect
             x="1191.35"
             y="3364.35"
@@ -1273,7 +1273,7 @@ const Backend = () => {
           stroke="rgb(0,0,0)"
           stroke-width="2.7"
         ></rect>
-        <g class="clickable-group" data-group-id="101-apis:authentication:oauth">
+        <g className="clickable-group" data-group-id="101-apis:authentication:oauth">
           <rect
             x="711.35"
             y="2386.35"
@@ -1305,7 +1305,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-apis:authentication:basic-authentication"
         >
           <rect
@@ -1339,7 +1339,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-apis:authentication:token-authentication"
         >
           <rect
@@ -1372,7 +1372,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="104-apis:authentication:jwt">
+        <g className="clickable-group" data-group-id="104-apis:authentication:jwt">
           <rect
             x="711.35"
             y="2497.35"
@@ -1403,7 +1403,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="105-apis:authentication:openid">
+        <g className="clickable-group" data-group-id="105-apis:authentication:openid">
           <rect
             x="711.35"
             y="2534.35"
@@ -1434,7 +1434,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="105-apis:authentication:saml">
+        <g className="clickable-group" data-group-id="105-apis:authentication:saml">
           <rect
             x="711.35"
             y="2571.35"
@@ -1465,7 +1465,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="110-caching">
+        <g className="clickable-group" data-group-id="110-caching">
           <rect
             x="1211.35"
             y="2367.35"
@@ -1486,7 +1486,7 @@ const Backend = () => {
             <tspan>Caching</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="100-caching:server-side:redis">
+        <g className="clickable-group" data-group-id="100-caching:server-side:redis">
           <rect
             x="1603.35"
             y="2347.35"
@@ -1518,7 +1518,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-caching:server-side:memcached"
         >
           <rect
@@ -1552,7 +1552,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-caching:server-side">
+        <g className="clickable-group" data-group-id="101-caching:server-side">
           <rect
             x="1433.35"
             y="2368.35"
@@ -1573,7 +1573,7 @@ const Backend = () => {
             <tspan>Server Side</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="102-caching:client-side">
+        <g className="clickable-group" data-group-id="102-caching:client-side">
           <rect
             x="1433.35"
             y="2323.35"
@@ -1604,7 +1604,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="100-caching:cdn">
+        <g className="clickable-group" data-group-id="100-caching:cdn">
           <rect
             x="1433.35"
             y="2413.35"
@@ -1644,7 +1644,7 @@ const Backend = () => {
           stroke-linejoin="round"
           stroke-dasharray="undefined"
         ></path>
-        <g class="clickable-group" data-group-id="106-relational-databases">
+        <g className="clickable-group" data-group-id="106-relational-databases">
           <rect
             x="979.35"
             y="1459.35"
@@ -1666,7 +1666,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-relational-databases:postgresql"
         >
           <rect
@@ -1700,7 +1700,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-relational-databases:mysql">
+        <g className="clickable-group" data-group-id="101-relational-databases:mysql">
           <rect
             x="714.35"
             y="1447.35"
@@ -1733,7 +1733,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-relational-databases:mariadb"
         >
           <rect
@@ -1767,7 +1767,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="103-relational-databases:mssql">
+        <g className="clickable-group" data-group-id="103-relational-databases:mssql">
           <rect
             x="714.35"
             y="1537.35"
@@ -1800,7 +1800,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-relational-databases:oracle"
         >
           <rect
@@ -1834,7 +1834,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="107-nosql-databases">
+        <g className="clickable-group" data-group-id="107-nosql-databases">
           <rect
             x="1160.35"
             y="1652.35"
@@ -1855,7 +1855,7 @@ const Backend = () => {
             <tspan>NoSQL Databases</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="101-more-about-databases:acid">
+        <g className="clickable-group" data-group-id="101-more-about-databases:acid">
           <rect
             x="1099.35"
             y="1775.35"
@@ -1886,7 +1886,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="108-more-about-databases">
+        <g className="clickable-group" data-group-id="108-more-about-databases">
           <rect
             x="1099.35"
             y="2071.35"
@@ -1908,7 +1908,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-more-about-databases:transactions"
         >
           <rect
@@ -1942,7 +1942,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-more-about-databases:n-plus-one-problem"
         >
           <rect
@@ -1976,7 +1976,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-scaling-databases:sharding-strategies"
         >
           <rect
@@ -2010,7 +2010,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-more-about-databases:database-normalization"
         >
           <rect
@@ -2044,7 +2044,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-scaling-databases:data-replication"
         >
           <rect
@@ -2078,7 +2078,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-scaling-databases:database-indexes"
         >
           <rect
@@ -2111,7 +2111,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="109-apis">
+        <g className="clickable-group" data-group-id="109-apis">
           <rect
             x="959.35"
             y="2176.35"
@@ -2132,7 +2132,7 @@ const Backend = () => {
             <tspan>Learn about APIs</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="100-apis:rest">
+        <g className="clickable-group" data-group-id="100-apis:rest">
           <rect
             x="986.35"
             y="2273.35"
@@ -2163,7 +2163,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-apis:json-apis">
+        <g className="clickable-group" data-group-id="101-apis:json-apis">
           <rect
             x="986.35"
             y="2318.35"
@@ -2194,7 +2194,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="102-apis:soap">
+        <g className="clickable-group" data-group-id="102-apis:soap">
           <rect
             x="987.35"
             y="2363.35"
@@ -2225,7 +2225,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="104-apis:hateoas">
+        <g className="clickable-group" data-group-id="104-apis:hateoas">
           <rect
             x="707.35"
             y="2180.35"
@@ -2256,7 +2256,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="105-apis:open-api-spec">
+        <g className="clickable-group" data-group-id="105-apis:open-api-spec">
           <rect
             x="708.35"
             y="2226.35"
@@ -2288,7 +2288,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-scaling-databases:cap-theorem"
         >
           <rect
@@ -2321,7 +2321,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="106-apis:authentication">
+        <g className="clickable-group" data-group-id="106-apis:authentication">
           <rect
             x="706.35"
             y="2271.35"
@@ -2352,7 +2352,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="111-web-security-knowledge">
+        <g className="clickable-group" data-group-id="111-web-security-knowledge">
           <rect
             x="1204.35"
             y="2493.35"
@@ -2384,7 +2384,7 @@ const Backend = () => {
           stroke="rgb(0,0,0)"
           stroke-width="2.7"
         ></rect>
-        <g class="clickable-group" data-group-id="100-web-security-knowledge:md5">
+        <g className="clickable-group" data-group-id="100-web-security-knowledge:md5">
           <rect
             x="1497.35"
             y="2482.35"
@@ -2406,7 +2406,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-web-security-knowledge:sha-family"
         >
           <rect
@@ -2430,7 +2430,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-web-security-knowledge:scrypt"
         >
           <rect
@@ -2454,7 +2454,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-web-security-knowledge:bcrypt"
         >
           <rect
@@ -2486,7 +2486,7 @@ const Backend = () => {
           <tspan>Hashing Algorithms</tspan>
         </text>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-apis:authentication:cookie-based"
         >
           <rect
@@ -2519,7 +2519,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="112-testing">
+        <g className="clickable-group" data-group-id="112-testing">
           <rect
             x="1244.35"
             y="2637.35"
@@ -2541,7 +2541,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-testing:integration-testing"
         >
           <rect
@@ -2574,7 +2574,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-testing:unit-testing">
+        <g className="clickable-group" data-group-id="101-testing:unit-testing">
           <rect
             x="948.35"
             y="2611.35"
@@ -2605,7 +2605,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="102-testing:functional-testing">
+        <g className="clickable-group" data-group-id="102-testing:functional-testing">
           <rect
             x="948.35"
             y="2653.35"
@@ -2699,7 +2699,7 @@ const Backend = () => {
           >
             <tspan>along with resources and other roadmaps</tspan>
           </text>
-          <g class="clickable-group" data-group-id="ext_link:roadmap.sh">
+          <g className="clickable-group" data-group-id="ext_link:roadmap.sh">
             <rect
               x="1493.35"
               y="754.35"
@@ -2830,7 +2830,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="100-learn-a-language:go">
+        <g className="clickable-group" data-group-id="100-learn-a-language:go">
           <rect
             x="890.35"
             y="1060.35"
@@ -2862,7 +2862,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="102-learn-a-language:java">
+        <g className="clickable-group" data-group-id="102-learn-a-language:java">
           <rect
             x="728.35"
             y="1225.35"
@@ -2894,7 +2894,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-learn-a-language:rust">
+        <g className="clickable-group" data-group-id="101-learn-a-language:rust">
           <rect
             x="726.35"
             y="1060.35"
@@ -2926,7 +2926,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="103-learn-a-language:csharp">
+        <g className="clickable-group" data-group-id="103-learn-a-language:csharp">
           <rect
             x="728.35"
             y="1271.35"
@@ -2958,7 +2958,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="103-learn-a-language">
+        <g className="clickable-group" data-group-id="103-learn-a-language">
           <rect
             x="727.35"
             y="1134.35"
@@ -2979,7 +2979,7 @@ const Backend = () => {
             <tspan>Learn a Language</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="103-learn-a-language:php">
+        <g className="clickable-group" data-group-id="103-learn-a-language:php">
           <rect
             x="728.35"
             y="1317.35"
@@ -3012,7 +3012,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-learn-a-language:javascript"
         >
           <rect
@@ -3045,7 +3045,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="106-learn-a-language:python">
+        <g className="clickable-group" data-group-id="106-learn-a-language:python">
           <rect
             x="894.35"
             y="1271.35"
@@ -3077,7 +3077,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="107-learn-a-language:ruby">
+        <g className="clickable-group" data-group-id="107-learn-a-language:ruby">
           <rect
             x="894.35"
             y="1317.35"
@@ -3127,7 +3127,7 @@ const Backend = () => {
           stroke-linejoin="round"
           stroke-dasharray="0.8 12"
         ></path>
-        <g class="clickable-group" data-group-id="100-internet">
+        <g className="clickable-group" data-group-id="100-internet">
           <rect
             x="1121.35"
             y="928.35"
@@ -3149,7 +3149,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-internet:how-does-the-internet-work"
         >
           <rect
@@ -3182,7 +3182,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-internet:what-is-http">
+        <g className="clickable-group" data-group-id="101-internet:what-is-http">
           <rect
             x="725.35"
             y="936.35"
@@ -3214,7 +3214,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-internet:browsers-and-how-they-work"
         >
           <rect
@@ -3248,7 +3248,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-internet:dns-and-how-it-works"
         >
           <rect
@@ -3282,7 +3282,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-internet:what-is-domain-name"
         >
           <rect
@@ -3315,7 +3315,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="105-internet:what-is-hosting">
+        <g className="clickable-group" data-group-id="105-internet:what-is-hosting">
           <rect
             x="1514.35"
             y="978.35"
@@ -3347,7 +3347,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-os-general-knowledge:memory-management"
         >
           <rect
@@ -3371,7 +3371,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-os-general-knowledge:interprocess-communication"
         >
           <rect
@@ -3395,7 +3395,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="107-os-general-knowledge:io-management"
         >
           <rect
@@ -3419,7 +3419,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="108-os-general-knowledge:posix-basics"
         >
           <rect
@@ -3461,7 +3461,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="109-os-general-knowledge:basic-networking-concepts"
         >
           <rect
@@ -3485,7 +3485,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-os-general-knowledge:terminal-usage"
         >
           <rect
@@ -3519,7 +3519,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-os-general-knowledge:basic-terminal-commands"
         >
           <rect
@@ -3579,7 +3579,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-os-general-knowledge:process-management"
         >
           <rect
@@ -3603,7 +3603,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-os-general-knowledge:threads-and-concurrency"
         >
           <rect
@@ -3627,7 +3627,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-os-general-knowledge:how-oss-work-in-general"
         >
           <rect
@@ -3651,7 +3651,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-version-control-systems:git"
         >
           <rect
@@ -3685,7 +3685,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-repo-hosting-services:github"
         >
           <rect
@@ -3718,7 +3718,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="105-repo-hosting-services">
+        <g className="clickable-group" data-group-id="105-repo-hosting-services">
           <rect
             x="1216.35"
             y="1189.35"
@@ -3739,7 +3739,7 @@ const Backend = () => {
             <tspan>Repo hosting services</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="104-version-control-systems">
+        <g className="clickable-group" data-group-id="104-version-control-systems">
           <rect
             x="1216.35"
             y="1134.35"
@@ -3761,7 +3761,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-repo-hosting-services:bitbucket"
         >
           <rect
@@ -3796,7 +3796,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-repo-hosting-services:gitlab"
         >
           <rect
@@ -3830,7 +3830,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="100-more-about-databases:orms">
+        <g className="clickable-group" data-group-id="100-more-about-databases:orms">
           <rect
             x="1099.35"
             y="1730.35"
@@ -3861,7 +3861,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="113-ci-cd">
+        <g className="clickable-group" data-group-id="113-ci-cd">
           <rect
             x="1245.35"
             y="2705.35"
@@ -3893,7 +3893,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="114-design-and-development-principles"
         >
           <rect
@@ -3917,7 +3917,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-design-and-development-principles:gof-design-patterns"
         >
           <rect
@@ -3951,7 +3951,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-design-and-development-principles:domain-driven-design"
         >
           <rect
@@ -3985,7 +3985,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-design-and-development-principles:test-driven-development"
         >
           <rect
@@ -4019,7 +4019,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-architectural-patterns:serverless"
         >
           <rect
@@ -4053,7 +4053,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-scalability:migration-strategies"
         >
           <rect
@@ -4087,7 +4087,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-scalability:horizontal-vertical-scaling"
         >
           <rect
@@ -4130,7 +4130,7 @@ const Backend = () => {
           stroke-linecap="round"
           stroke-linejoin="round"
         ></path>
-        <g class="clickable-group" data-group-id="103-apis:grpc">
+        <g className="clickable-group" data-group-id="103-apis:grpc">
           <rect
             x="988.35"
             y="2408.35"
@@ -4162,7 +4162,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="ext_link:roadmap.sh/software-design-architecture"
         >
           <rect
@@ -4185,7 +4185,7 @@ const Backend = () => {
             <tspan>Software Design &amp; Architecture</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="102-os-general-knowledge">
+        <g className="clickable-group" data-group-id="102-os-general-knowledge">
           <rect
             x="1449.35"
             y="1437.35"
@@ -4239,7 +4239,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-nosql-databases:document-databases"
         >
           <rect
@@ -4326,7 +4326,7 @@ const Backend = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-nosql-databases:timeseries-databases"
         >
           <rect
@@ -4413,7 +4413,7 @@ const Backend = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-nosql-databases:realtime-databases"
         >
           <rect
@@ -4500,7 +4500,7 @@ const Backend = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-nosql-databases:column-databases"
         >
           <rect
@@ -4587,7 +4587,7 @@ const Backend = () => {
           </g>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-nosql-databases:key-value-databases"
         >
           <rect
@@ -4757,7 +4757,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="109-scaling-databases">
+        <g className="clickable-group" data-group-id="109-scaling-databases">
           <rect
             x="1226.35"
             y="2174.35"
@@ -4778,7 +4778,7 @@ const Backend = () => {
             <tspan>Scaling Databases</tspan>
           </text>
         </g>
-        <g class="clickable-group" data-group-id="106-apis:graphql">
+        <g className="clickable-group" data-group-id="106-apis:graphql">
           <rect
             x="987.35"
             y="2453.35"
@@ -4810,7 +4810,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-containerization:kubernetes"
         >
           <rect
@@ -4843,7 +4843,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="120-graph-databases">
+        <g className="clickable-group" data-group-id="120-graph-databases">
           <rect
             x="880.35"
             y="1951.35"
@@ -4908,7 +4908,7 @@ const Backend = () => {
           stroke-width="2.7"
         ></rect>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-web-security-knowledge:cors"
         >
           <rect
@@ -4932,7 +4932,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-web-security-knowledge:https"
         >
           <rect
@@ -4956,7 +4956,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-web-security-knowledge:content-security-policy"
         >
           <rect
@@ -4980,7 +4980,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="108-web-security-knowledge:owasp"
         >
           <rect
@@ -5004,7 +5004,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="107-web-security-knowledge:ssl-tls"
         >
           <rect
@@ -5038,7 +5038,7 @@ const Backend = () => {
           stroke-linejoin="round"
         ></path>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-design-and-development-principles:cqrs"
         >
           <rect
@@ -5072,7 +5072,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-design-and-development-principles:event-sourcing"
         >
           <rect
@@ -5106,7 +5106,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-architectural-patterns:service-mesh"
         >
           <rect
@@ -5140,7 +5140,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-architectural-patterns:twelve-factor-apps"
         >
           <rect
@@ -5173,7 +5173,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="116-search-engines">
+        <g className="clickable-group" data-group-id="116-search-engines">
           <rect
             x="1141.35"
             y="3006.35"
@@ -5195,7 +5195,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-search-engines:elasticsearch"
         >
           <rect
@@ -5228,7 +5228,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-search-engines:solr">
+        <g className="clickable-group" data-group-id="101-search-engines:solr">
           <rect
             x="1163.35"
             y="3069.35"
@@ -5259,7 +5259,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="100-message-brokers:rabbitmq">
+        <g className="clickable-group" data-group-id="100-message-brokers:rabbitmq">
           <rect
             x="807.35"
             y="3140.35"
@@ -5290,7 +5290,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="101-message-brokers:kafka">
+        <g className="clickable-group" data-group-id="101-message-brokers:kafka">
           <rect
             x="807.35"
             y="3185.35"
@@ -5321,7 +5321,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="122-server-sent-events">
+        <g className="clickable-group" data-group-id="122-server-sent-events">
           <rect
             x="958.35"
             y="3363.35"
@@ -5352,7 +5352,7 @@ const Backend = () => {
             stroke-linejoin="round"
           ></path>
         </g>
-        <g class="clickable-group" data-group-id="123-scalability">
+        <g className="clickable-group" data-group-id="123-scalability">
           <rect
             x="1080.35"
             y="3641.35"
@@ -5374,7 +5374,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-scalability:mitigation-strategies"
         >
           <rect
@@ -5408,7 +5408,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="100-scalability:mitigation-strategies:graceful-degradation"
         >
           <rect
@@ -5432,7 +5432,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-scalability:mitigation-strategies:throttling"
         >
           <rect
@@ -5456,7 +5456,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="102-scalability:mitigation-strategies:backpressure"
         >
           <rect
@@ -5480,7 +5480,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="103-scalability:mitigation-strategies:loadshifting"
         >
           <rect
@@ -5504,7 +5504,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="104-scalability:mitigation-strategies:circuit-breaker"
         >
           <rect
@@ -5528,7 +5528,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="105-more-about-databases:failure-modes"
         >
           <rect
@@ -5562,7 +5562,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-more-about-databases:profiling-performance"
         >
           <rect
@@ -5596,7 +5596,7 @@ const Backend = () => {
           ></path>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="101-scalability:instrumentation-monitoring-telemetry"
         >
           <rect
@@ -5704,7 +5704,7 @@ const Backend = () => {
         >
           <tspan>Have a look at the DevOps Roadmap</tspan>
         </text>
-        <g class="clickable-group" data-group-id="ext_link:roadmap.sh/devops">
+        <g className="clickable-group" data-group-id="ext_link:roadmap.sh/devops">
           <rect
             x="1092.35"
             y="3960.35"
@@ -5726,7 +5726,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="106-web-security-knowledge:server-security"
         >
           <rect
@@ -5750,7 +5750,7 @@ const Backend = () => {
           </text>
         </g>
         <g
-          class="clickable-group"
+          className="clickable-group"
           data-group-id="ext_link:roadmap.sh/best-practices/api-security"
         >
           <rect
