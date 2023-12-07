@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect } from 'react'
-import Resources from '../components/Landing page components/Resources'
+import FAQHeadSection from '../components/FAQ componets/FAQHeadSection'
+import FAQfaqSection from '../components/FAQ componets/FAQfaqSection'
 import Community from '../components/Landing page components/Community'
 import Footer from '../components/Landing page components/Footer'
 
-const GuidesPage = ({topics,resource,description }) => {
-
+const FAQPage = () => {
   useEffect(() => {
     setTimeout(()=>{
       window.scrollTo({
@@ -13,16 +13,14 @@ const GuidesPage = ({topics,resource,description }) => {
       });
     },0)
   }, [])
-
   return (
     <Fragment>
-        <Resources resource={resource} topicForGuide={topics} description={description} />
+        <FAQHeadSection />
+        <FAQfaqSection />
         <Community />
         <Footer />
     </Fragment>
   )
 }
 
-export default GuidesPage
-
-
+export default FAQPage

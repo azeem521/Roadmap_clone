@@ -5,8 +5,18 @@ import RoleBaseRoadmap from '../components/Landing page components/RoleBaseRoadm
 import Resources from '../components/Landing page components/Resources';
 import Community from '../components/Landing page components/Community';
 import Footer from '../components/Landing page components/Footer';
+import { useEffect } from 'react';
 
 function LandingPage({isShowMenu, showBurgerMenuFunction}) {
+
+  useEffect(() => {
+    setTimeout(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },0)
+  }, [])
 
   return (
     <div className='bg-gradient-to-b from-slate-900 to-black'>

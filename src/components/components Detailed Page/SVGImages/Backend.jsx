@@ -6,7 +6,7 @@ const Backend = () => {
         <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="660 657 1172 3439"
-        style={{fontFamily: "balsamiq"}}
+        style={{ fontFamily: "'Balsamiq Sans', sans-serif" }}
       >
         <path
           d="M936.5 3666Q1037.9115722937559 3665.3099152399413 1196.3665699886046 3666"

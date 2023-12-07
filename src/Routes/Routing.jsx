@@ -9,7 +9,9 @@ const Routing = ({ showBurgerMenuFunction, isShowMenu }) => {
   const RoadmapsPage = lazy(() => import('../Pages/RoadmapsPage'))
   const BestPracticesPage = lazy(() => import('../Pages/BestPracticesPage'))
   const TeamPage = lazy(() => import('../Pages/TeamPage'))
-  const DetailedPage = lazy(()=>import('../Pages/DetailedPage'))
+  const DetailedPage = lazy(()=>import('../Pages/DetailedPage'));
+  const VideoOfTopic = lazy(()=>import('../Pages/VideoOfTopic'))
+  const FAQPage = lazy(()=>import('../Pages/FAQPage'))
   return (
     <Fragment>
       <Suspense fallback={<div className="flex h-screen items-center justify-center">
@@ -24,6 +26,8 @@ const Routing = ({ showBurgerMenuFunction, isShowMenu }) => {
           <Route path='/guides' element={<GuidesPage topics={engineeringGuideTopic} resource={"Guides"} description={"Succinct graphical explanations to engineering topics."}/>} />
 
           <Route path='/videos' element={<GuidesPage topics={videoTopic} resource={"Videos"} description={"Graphical video demonstrations on software engineering topics."}/>} />
+          <Route path='/about' element={<FAQPage />} />
+          <Route path='/Videos/:id' element={<VideoOfTopic />} />
           
         </Routes>
       </Suspense>

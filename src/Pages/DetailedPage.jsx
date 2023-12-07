@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense, lazy } from 'react'
+import React, { Fragment, Suspense, lazy, useEffect } from 'react'
 import HeaderSection from '../components/components Detailed Page/HeaderSection'
 import { useParams } from 'react-router-dom';
 import { detailedPageData } from '../components/components Detailed Page/dataForDetail';
@@ -17,141 +17,151 @@ const DetailedPage = () => {
     case 'blockchain':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Blockchain'));
       break;
-      case 'frontend':
+    case 'frontend':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Frontend'));
       break;
-      case 'backend':
+    case 'backend':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Backend'));
       break;
-      case 'devops':
+    case 'devops':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/DevOps'));
       break;
-      case 'full-stack':
+    case 'full-stack':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/FullStack'));
       break;
-      case 'android':
+    case 'android':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Android'));
       break;
-      case 'postgresql':
+    case 'postgresql':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/PostgreSQL'));
       break;
-      case 'ai-and-data-scientist':
+    case 'ai-and-data-scientist':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/AIandDataScientist'));
       break;
-      case 'qa':
+    case 'qa':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/QAEngineer'));
       break;
-      case 'software-architect':
+    case 'software-architect':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/SoftwareArchitect'));
       break;
-      case 'asp.net-core':
+    case 'asp.net-core':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/ASPNETCore'));
       break;
-      case 'c++':
+    case 'c++':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/C'));
       break;
-      case 'flutter':
+    case 'flutter':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Flutter'));
       break;
-      case 'cyber-security':
+    case 'cyber-security':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/CyberSecurity'));
       break;
-      case 'ux-design':
+    case 'ux-design':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/UXDesign'));
       break;
-      case 'react-native':
+    case 'react-native':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/ReactNative'));
       break;
-      case 'game-developer':
+    case 'game-developer':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/GameDeveloper'));
       break;
-      case 'technical-writer':
+    case 'technical-writer':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/TechnicalWriter'));
       break;
-      case 'computer-science':
+    case 'computer-science':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/ComputerScience'));
       break;
-      case 'react':
+    case 'react':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/ReactDev'));
       break;
-      case 'angular':
+    case 'angular':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Angular'));
       break;
-      case 'vue':
+    case 'vue':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Vue'));
       break;
-      case 'javascript':
+    case 'javascript':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/JavaScript'));
       break;
-      case 'node.js':
+    case 'node.js':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Nodejs'));
       break;
-      case 'typescript':
+    case 'typescript':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/TypeScript'));
       break;
-      case 'python':
+    case 'python':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Python'));
       break;
-      case 'sql':
+    case 'sql':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/SQL'));
       break;
-      case 'system-design':
+    case 'system-design':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/SystemDesign'));
       break;
-      case 'java':
+    case 'java':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Java'));
       break;
-      case 'spring-boot':
+    case 'spring-boot':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/SpringBoot'));
       break;
-      case 'go-roadmap':
+    case 'go-roadmap':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Go'));
       break;
-      case 'rust':
+    case 'rust':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Rust'));
       break;
-      case 'graphql':
+    case 'graphql':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/GraphQL'));
       break;
-      case 'design-and-architecture':
+    case 'design-and-architecture':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/DesignArchitecture'));
       break;
-      case 'design-system':
+    case 'design-system':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/DesignSystem'));
       break;
-      case 'code-review':
+    case 'code-review':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/CodeReview'));
       break;
-      case 'docker':
+    case 'docker':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Docker'));
       break;
-      case 'kubernetes':
+    case 'kubernetes':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Kubernetes'));
       break;
-      case 'mongodb':
+    case 'mongodb':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/MongoDB'));
       break;
-      case 'prompt-engineering':
+    case 'prompt-engineering':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/PromptEngineering'));
       break;
-      case 'frontend-performance':
+    case 'frontend-performance':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/FrontendPerformance'));
       break;
-      case 'api-security':
+    case 'api-security':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/APISecurity'));
       break;
-      case 'code-reviews':
+    case 'code-reviews':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/CodeReviews'));
       break;
-      case 'aws':
+    case 'aws':
       ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/AWS'));
       break;
-      // case 'blockchain':
-      // ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Blockchain'));
-      // break;
-      default:
+    // case 'blockchain':
+    // ComponentToRender = lazy(() => import('../components/components Detailed Page/SVGImages/Blockchain'));
+    // break;
+    default:
       ComponentToRender = <div><h1>404</h1></div>;
   }
+
+  useEffect(() => {
+    setTimeout(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },0)
+  }, [ComponentToRender])
+
   return (
     <Fragment>
       {data.partener ? <HeaderSection data={data} /> : <HeaderSectionWithoutQuestion data={data} />}
@@ -159,7 +169,7 @@ const DetailedPage = () => {
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
       </div>}>
         <div className="bg-gray-50 px-10 pt-4 pb-8 sm:pt-12">
-        <ComponentToRender />
+          <ComponentToRender />
         </div>
       </Suspense>
       <FAQSection />

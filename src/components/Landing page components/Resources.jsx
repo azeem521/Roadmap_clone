@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Resources = ({ topicForGuide, resource, buttonTittle, description }) => {
+
   return (
     <div className={`grid grid-cols-1 gap-7 bg-gray-50 ${description ? "pt-7 mb-[-20px] sm:pt-16" : "py-7 sm:py-16"} pt-7 sm:gap-16`}>
       <div className={`${description ? 'pt-2' : "mx-[6.5%] md:mx-[12%] "}`}>

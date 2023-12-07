@@ -6,7 +6,7 @@ const DevOps = () => {
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="152 49 1251 3283"
-        style={{fontFamily: "balsamiq"}}
+        style={{ fontFamily: "'Balsamiq Sans', sans-serif" }}
       >
         <path
           d="M401 880.0909090909091Q401 902.8181818181818 401 925.5454545454545"
