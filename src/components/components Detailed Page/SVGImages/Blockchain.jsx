@@ -5,7 +5,7 @@ const Blockchain = () => {
     <div><svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="257 149 1172 2632"
-        style={{fontFamily:"font-family: balsamiq"}}
+        style={{ fontFamily: "'Balsamiq Sans', sans-serif" }}
         
       >
         <path

@@ -150,7 +150,7 @@ const HeaderSectionWithoutQuestion = ({data}) => {
             <span
               className="mr-2.5 rounded-sm bg-yellow-200 px-1 py-0.5 text-xs font-medium uppercase text-yellow-900"
             >
-              <span data-progress-percentage="">{data.done}{" "}</span>% Done
+              <span data-progress-percentage="">{data.done}{" "}</span> Done
             </span>
             <span className="itesm-center hidden md:flex">
               <span><span data-progress-done="">{data.complete}</span> completed</span

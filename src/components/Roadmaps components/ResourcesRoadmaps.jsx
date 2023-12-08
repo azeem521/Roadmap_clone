@@ -11,6 +11,9 @@ const ResourcesRoadmaps = ({ topics }) => {
               const randomNumber = Math.floor(10000000 + Math.random() * 90000000);
               const address = (() => {
                 if (topic.title.includes(' ')) {
+                  if (topic.title==='Server Side Game Developer') {
+                    return "game-developer"
+                  }
                   if (topic.title.includes('Game')) {
                     return topic.title.replace(/\s+/g, '-').toLocaleLowerCase()
                   } if (topic.title.includes('Go')) {
@@ -19,6 +22,7 @@ const ResourcesRoadmaps = ({ topics }) => {
                   if (topic.title.includes('Prompt')) {
                     return "prompt-engineering"
                   }
+
                   return topic.title.replace(/\s+/g, '-').toLocaleLowerCase().replace(/-developer/g, '').replace(/-roadmap/g, '').replace(/-dba/g, '').replace(/-engineer/g, '').replace(/-expert/g, '').replace(/software-/g, '').replace(/-pyramid/g, '')
                 }
                 return topic.title.toLocaleLowerCase()
