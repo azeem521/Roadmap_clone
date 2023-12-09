@@ -120,7 +120,7 @@ export default function SearchModalPage() {
                                 >Best Practices</Link
                               ><Link
                                 class="flex w-full items-center rounded p-2 text-sm hover:bg-gray-100"
-                                to="#"
+                                to="/about"
                               ><svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"

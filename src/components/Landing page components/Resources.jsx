@@ -16,7 +16,7 @@ const Resources = ({ topicForGuide, resource, buttonTittle, description }) => {
               const randomNumber = Math.floor(10000000 + Math.random() * 90000000);
               const address = (() => {
                 if (topic.title.includes(' ')) {
-                  return topic.title.replace(/\s+/g, '-').toLocaleLowerCase()
+                  return topic.title.replace(/\s+/g, '-').toLocaleLowerCase().replace(/\//g, '-')
                 }
                 return topic.title.toLocaleLowerCase()
               })()
